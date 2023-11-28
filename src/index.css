@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.heder_container {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #d5d5d5;
+  box-shadow: 4px;
+  height: 60px;
+  align-items: center;
+}
+.sec_p {
+  padding: 0% 10%;
+}
+.banner_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background: url("https://as2.ftcdn.net/v2/jpg/05/08/17/01/1000_F_508170187_4Oonk4IG8u9eyfwSUvTASkT8hl71vRX2.jpg");
+  height: 500px;
+  width: 100%;
+}
+
+.cat_sec {
+  display: flex;
+  padding: 6% 15%;
+  justify-content: space-between;
+}
+.product_sec {
+  padding: 6% 15%;
+}
+.product_container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.product_card {
+  display: flex;
+  padding: 0px !important;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  border: 2px solid #d5d5d5;
+}
+
+.Product_Container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px !important;
+}
+.product_content {
+  text-align: left;
+  padding: 10px;
+}
+.Product_price {
+  vertical-align: text-top;
+}
+.tes_pedding {
+  background-color: #f9f9f9;
+}
